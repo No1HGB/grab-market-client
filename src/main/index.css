@@ -14,7 +14,7 @@ body {
 }
 
 #body {
-  height: 100%;
+  height: 100vh;
   width: 1024px;
   margin: 0 auto; /*해당 div가 부무로부터 가운데정렬됨*/
   padding-bottom: 24px;
@@ -81,4 +81,8 @@ body {
 }
 .product-avatar {
   width: 24px;
+}
+.product-link {
+  color: inherit;
+  text-decoration: none;
 }
